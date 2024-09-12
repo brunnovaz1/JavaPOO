@@ -1,23 +1,23 @@
-package aula03.aula02;
+package javaPOO.aula02;
 
 public class Caneta {
-   public String modelo;
-   public String cor;
-   private float ponta;
-   protected int carga;
-   private boolean tampada;
+    String modelo;
+    String cor;
+    float ponta;
+    int carga;
+    boolean tampada;
 
 
-    public void status() {
+    void status() {
         System.out.println("Modelo: " + this.modelo);
-        System.out.println("Uma caneta cor: " + this.cor);  //this -> auto-referência(obj que chamou.)
+        System.out.println("Uma caneta " + this.cor);  //this -> auto-referência(obj que chamou)
         System.out.println("Ponta: " + this.ponta);
         System.out.println("Carga: " + this.carga);
         System.out.println("Esta tampada? " + this.tampada);
 
     }
 
-    public void rabiscar() {
+    void rabiscar() {
         if(this.tampada == true){
             System.out.println("Erro! Não posso rabiscar!");
         }else{
@@ -25,11 +25,11 @@ public class Caneta {
         }
     }
 
-   public void tampar() {
+    void tampar() {
     this.tampada = true;
     }
 
-   public void destampar() {
+    void destampar() {
     this.tampada = false;
     }
 }

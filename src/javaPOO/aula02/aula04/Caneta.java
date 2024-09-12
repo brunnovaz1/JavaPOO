@@ -1,6 +1,4 @@
-package aula04;
-
-import java.sql.SQLOutput;
+package javaPOO.aula02.aula04;
 
 public class Caneta {
     public String modelo;

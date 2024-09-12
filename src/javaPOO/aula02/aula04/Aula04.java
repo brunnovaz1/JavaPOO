@@ -1,4 +1,4 @@
-package aula04;
+package javaPOO.aula02.aula04;
                                         //metodos getters e setters protegem o acesso, nao permitindo que seja direto
 public class Aula04 {
     public static void main(String[] args) {

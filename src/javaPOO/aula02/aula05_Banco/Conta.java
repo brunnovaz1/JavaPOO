@@ -1,4 +1,4 @@
-package aula05_Banco;
+package javaPOO.aula02.aula05_Banco;
 
 public class Conta {
     public int numConta;
@@ -98,7 +98,12 @@ public Conta(){
         }
     }
     public void sacar(int sac) {
-        if (saldo < sac) {
+        if(!isStatus()){
+            System.out.println(" - - - - - - - - - - - - - - - - - - - - - - - -");
+            System.out.println("A conta não esta ativa!");
+            System.out.println(" - - - - - - - - - - - - - - - - - - - - - - - -");
+
+        }else if (saldo < sac) {
             System.out.println("!!! SAQUE RECUSADO: R$" + sac + " - Saldo insuficiente!");
         } else {
             saldo = saldo - sac;
@@ -118,7 +123,7 @@ public Conta(){
             }
         }else{
             tx = 20;
-                if (saldo < 20) {
+                if (saldo < tx) {
                     System.out.println("Saldo insuficente para pagamento da taxa de manutenção. - R$" + getSaldo());
                 } else {
                     saldo = saldo - tx;
