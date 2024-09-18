@@ -1,4 +1,4 @@
-package javaPOO.aula02.aula02;
+package javaPOO.aula02;
 
 public class Caneta {
    public String modelo;

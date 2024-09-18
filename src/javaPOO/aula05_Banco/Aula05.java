@@ -1,4 +1,4 @@
-package javaPOO.aula02.aula05_Banco;
+package javaPOO.aula05_Banco;
 
 public class Aula05 {
     public static void main(String[] args) {
