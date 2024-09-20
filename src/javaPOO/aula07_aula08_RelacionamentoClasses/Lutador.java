@@ -1,4 +1,4 @@
-package javaPOO.aula07_RelacionamentoClasses;
+package javaPOO.aula07_aula08_RelacionamentoClasses;
 
 public class Lutador {
     private String nome;

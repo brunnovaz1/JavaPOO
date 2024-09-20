@@ -1,6 +1,5 @@
-package javaPOO.aula07_RelacionamentoClasses;
+package javaPOO.aula07_aula08_RelacionamentoClasses;
 
-import java.sql.SQLOutput;
 import java.util.Random;
 
 public class Luta {
