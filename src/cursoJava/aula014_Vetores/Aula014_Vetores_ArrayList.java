@@ -1,7 +1,5 @@
-package cursoJava;                          //ArrayList<tipo> nome = new ArrayList<tipo>();
-import java.lang.reflect.Array;
+package cursoJava.aula014_Vetores;                          //ArrayList<tipo> nome = new ArrayList<tipo>();
 import java.util.ArrayList;                 //diferente do normal, o tamanho nao e estatico
-import java.util.Arrays;
 import java.util.Scanner;
 
 

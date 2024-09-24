@@ -1,5 +1,4 @@
-package cursoJava;
-import java.util.Arrays;
+package cursoJava.aula014_Vetores;
 
 public class Aula014_Vetores_forEach {
     public static void main(String[] args) {
