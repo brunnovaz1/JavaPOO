@@ -21,4 +21,5 @@ public class Bolsista extends Aluno{
     public void setBolsa(float bolsa) {
         this.bolsa = bolsa;
     }
+
 }

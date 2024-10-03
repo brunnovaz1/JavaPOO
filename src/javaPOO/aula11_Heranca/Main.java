@@ -7,7 +7,7 @@ public class Main {
         //  Pessoa p1 = new Pessoa();              uma classe abstrata nao pode ser instanciada
 
         Visitante v1 = new Visitante();
-        v1.setNome("Bruno");
+        v1.setNome("Edu");
         v1.setIdade(22);
         v1.setSexo("M");
         System.out.println(v1.toString());
